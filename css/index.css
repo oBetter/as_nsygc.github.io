@@ -13,17 +13,19 @@ sub{vertical-align:text-bottom}
 legend{color:#000}
 fieldset,img{border:0}
 table{border-collapse:collapse;border-spacing:0}
-/*清除浮动*/
+/* clear float */
 .clr:after { content:""; clear:both; display:block; font-size:0; height:0; line-height:0;}
 .clr { zoom:1;}
-
 
 /*a*/
 a{ text-decoration:none; color:#666;cursor:pointer;outline:none;}
 a:hover{color:#E84C3D;}
 
-
 /* both */
+html,body{
+	height: 100%;
+}
+
 body{
 	background: linear-gradient(to bottom, #333  0%,#fff 100%);
 	font-family: "微软雅黑";
@@ -31,17 +33,17 @@ body{
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
+	align-items: center;
 }
 .content{
 	text-align: center;
 	padding: 60px;
-	margin: 0 auto;
 	line-height: 36px;
 	width: 300px;
 	background: rgba(255, 255, 255, 0.5);
 	box-shadow: 0 0 10px 10px #666;
 	font-size: 16px;
-	border-radius: 21px;
+	border-radius: 20px;
 }
 .name{
 	font-size: 24px;
@@ -73,7 +75,7 @@ body{
 	color: #000;
 	transition: all .5s;
 	animation: btncs 2s infinite;
-	border: dotted 1px #000;
+	border: dotted 1px #999;
 }
 .link:hover{
 	background: rgba(0, 0, 0, 0.8);
