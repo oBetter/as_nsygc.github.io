@@ -14,26 +14,14 @@ legend{color:#000}
 fieldset,img{border:0}
 table{border-collapse:collapse;border-spacing:0}
 /*清除浮动*/
-.clear{display:block;float:none;clear:both;overflow:hidden;visibility:hidden;width:0;height:0;background:none;border:0;font-size:0}
-.clr:after { content:""; clear:both; visibility:hidden; display:block; font-size:0; height:0; line-height:0;}
+.clr:after { content:""; clear:both; display:block; font-size:0; height:0; line-height:0;}
 .clr { zoom:1;}
 
 
 /*a*/
 a{ text-decoration:none; color:#666;cursor:pointer;outline:none;}
-// a:hover{color:#E84C3D;}
+a:hover{color:#E84C3D;}
 
-/*title*/
-h1 { font-size:50px;}
-h2 { font-size:40px;}
-h3 { font-size:30px;}
-h4 { font-size:14px;}
-h5 { font-size:12px;}
-h6 { font-size:9px;}
-
-/*float*/
-.fl{float:left;}
-.fr{float:right;}
 
 /* both */
 body{
@@ -43,9 +31,7 @@ body{
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
-
 }
-
 .content{
 	text-align: center;
 	padding: 60px;
